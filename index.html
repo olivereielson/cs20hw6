@@ -73,8 +73,7 @@ function td(content, className="")
 	  s += td("$" +menuItems[i].cost.toFixed(2), "cost");
 	  s += td("$<input type='text' name='cost'/>", "totalCost");
 	  s+= "</tr>";
-      console.log("name");
-      console.log(name);
+
 
   }
   document.writeln(s);
@@ -89,7 +88,7 @@ function td(content, className="")
 <p class="total totalSection"><label>Total:</label> $ <input type="text"  name='total' id="total" />
 </p>
 
-<input type = "button" value = "Submit Order" />
+<input type = "button" value = "Submit Order" id="hhe"/>
 
 </form>
 
