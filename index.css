@@ -1,0 +1,31 @@
+
+body {
+    background-color: #212121;
+    font-family: sans-serif;
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 15px;
+}
+
+h1 {
+    color: #0083b7;
+    font-size: 40px;
+}
+
+div {
+    color: orange;
+    background-color: white;
+    height: 2px;
+    border-radius: 25px;
+}
+
+input {
+
+    color: white;
+    border-radius: 5px;
+    background-color: #212121;
+    border: 1px solid rgba(255, 255, 255, .4);
+}
