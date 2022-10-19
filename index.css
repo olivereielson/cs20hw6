@@ -15,8 +15,7 @@ h1 {
     font-size: 40px;
 }
 
-div {
-    color: orange;
+.line{
     background-color: white;
     height: 2px;
     border-radius: 25px;

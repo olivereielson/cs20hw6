@@ -72,7 +72,7 @@ function build_page() {
         win.document.write("<p>" + quanArray[i] + " x " + menuItems[i].name + ": $" + (menuItems[i].cost * quanArray[i]).toFixed(2) + "</p>");
     }
     //add the costs
-    win.document.write("<div></div>")
+    win.document.write("<div class='line'></div>")
     win.document.write("<p> Subtotal: $" + total_cost.toFixed(2) + "</p>")
     win.document.write("<p> Tax: $" + tax.toFixed(2) + "</p>")
     win.document.write("<p> Total Cost: $" + final_cost.toFixed(2) + "</p>")
