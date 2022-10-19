@@ -83,6 +83,7 @@ function build_page() {
 
 }
 
+//is something is not 'good' then let the user know my making it red
 function is_good(bool, name) {
 
     if (bool) {
