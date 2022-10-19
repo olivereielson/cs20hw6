@@ -60,7 +60,8 @@ function caculate_costs() {
 function build_page() {
 
     //define a window
-    let win = window;
+    let win = window.open('_blank');
+    win.focus();
     //add titles 
     win.document.write('<h1>Your Order<\h1>');
     win.document.head.title = "Your Order";
